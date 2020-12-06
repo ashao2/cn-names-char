@@ -11,4 +11,4 @@ Fewer than n names/characters will be printed once the frequency reaches 1.
 
 To run the script, run python3 mingzi.py <path to file of names>.txt <n, number of names/characters to print>. I've provided processed.txt that you can try using. It contains names of popular Chinese female entertainers from various decades.
   
-Currently, I only support two- and three-character full names.
+Currently, I only support names with one-character surnames and one-character or two-character given names.
