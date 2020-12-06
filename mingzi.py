@@ -132,9 +132,3 @@ with open('results.txt', 'w') as name_counts:
 
     name_counts.write("\nTop Full Names:\n")
     write_names(name_counts, xingming, num_print)
-
-# Read in names from file
-# Separate into surnames & given names
-# Separate given names in 1-char & 2-char
-# Count up most common for each group (surname, 1-char, 2-char), perhaps using dictionarries
-# Create PQ for printing n most common names
